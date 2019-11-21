@@ -14,12 +14,12 @@ public class HelloWorld {
         System.out.println(myNumber);
 
 //        int x = 5;
-//        System.out.println(x++); printing a number with the variable x plus a value
-//        System.out.println(x);   printing the initialization of the variable;
+//        System.out.println(x++); printing a number with the variable x plus the increment that hasn't happened yet
+//        System.out.println(x);   printing the new variable after incrementation; new value of 6
 
 //        int x = 5;
 //        System.out.println(++x); printing a number with the variable being changed
-//        System.out.println(x); printing the new value of the variable x
+//        System.out.println(x); printing same value since no incrementation has happened either post or pre
 
 //        String class;
 
