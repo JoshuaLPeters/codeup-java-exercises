@@ -138,23 +138,23 @@ public class ControlFlowExercises {
 //        D : 66 - 60
 //        F : 59 - 0
 
-//        System.out.println("Please enter a numerical grade from 0 to 100.");
-//        int gradeOne = sc.nextInt();
-//        System.out.println("Would you like to continue?");
-//        String willContinue = sc.next();
-//            do {
-//                if (gradeOne >= 88) {
-//                    System.out.println("Your letter grade is an A");
-//                } else if (gradeOne < 88 && gradeOne > 79) {
-//                    System.out.println("Your letter grade is a B");
-//                } else if (gradeOne < 80 && gradeOne > 66) {
-//                    System.out.println("Your letter grade is a C");
-//                } else if (gradeOne < 67 && gradeOne > 59) {
-//                    System.out.println("Your letter grade is a D");
-//                } else {
-//                    System.out.println("You have failed.");
-//                }
-//            } while (willContinue == "yes");
+        System.out.println("Please enter a numerical grade from 0 to 100.");
+        int gradeOne = sc.nextInt();
+        System.out.println("Would you like to continue?");
+        String willContinue = sc.next();
+            do {
+                if (gradeOne >= 88) {
+                    System.out.println("Your letter grade is an A");
+                } else if (gradeOne < 88 && gradeOne > 79) {
+                    System.out.println("Your letter grade is a B");
+                } else if (gradeOne < 80 && gradeOne > 66) {
+                    System.out.println("Your letter grade is a C");
+                } else if (gradeOne < 67 && gradeOne > 59) {
+                    System.out.println("Your letter grade is a D");
+                } else {
+                    System.out.println("You have failed.");
+                }
+            } while (willContinue == "yes");
     // EXERCISE COMPLETE
     }
 }
