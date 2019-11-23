@@ -163,6 +163,7 @@ public class MethodsExercises {
 //        "Roll" two n-sided dice, display the results of each, and then ask the user if he/she wants to roll the dice again.
 //        Use static methods to implement the method(s) that generate the random numbers.
 //        Use the .random method of the java.lang.Math class to generate random numbers.
+
         Random rand = new Random();
         System.out.println("Please enter the number of sides for the first dice");
         int firstDice = sc.nextInt();
@@ -179,5 +180,6 @@ public class MethodsExercises {
         } else {
             System.out.println("No dice rolling for you");
         }
+
     }
 }
