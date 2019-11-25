@@ -180,6 +180,5 @@ public class MethodsExercises {
         } else {
             System.out.println("No dice rolling for you");
         }
-
     }
 }

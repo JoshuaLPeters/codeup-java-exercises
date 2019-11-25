@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.Random;
 public class HighLow {
@@ -44,5 +45,6 @@ public class HighLow {
             }
         } while (guess != gameRandomNumber);
         System.out.println("GOOD GUESS!");
+
     }
 }
