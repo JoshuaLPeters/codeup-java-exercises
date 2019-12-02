@@ -110,7 +110,4 @@ public class ArraysExercises {
         }
         return addPerson();
     }
-
-
-
 }
