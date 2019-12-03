@@ -7,7 +7,9 @@ public class MoviesApplication {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         Movie[] movieArray = MoviesArray.findAll();
+
         System.out.println("Welcome to the movies application!");
         int userInput;
         do{
