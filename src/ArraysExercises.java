@@ -89,16 +89,15 @@ public class ArraysExercises {
         addPerson();
 
 
-
     }
     public static String addPerson(){
         Person[] person = new Person[3];
         person[0] = new Person("David");
         person[1] = new Person("Fer");
         person[2] = new Person("Sophia");
-//        for(int i = 0; i < person.length; i++){
-//            System.out.println(person[i]);
-//        }
+        for(int i = 0; i < person.length; i++){
+            System.out.println(person[i]);
+        }
 
         Scanner sc = new Scanner(System.in);
         Person[] finalPerson = Arrays.copyOf(person, 4);

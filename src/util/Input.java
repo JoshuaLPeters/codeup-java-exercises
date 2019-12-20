@@ -33,9 +33,17 @@ public class Input {
         return userInput;
     };
     public static int getInt(){
-        System.out.println("Please enter an integer!");
-        return scanner.nextInt();
+        System.out.println("Give me a number: ");
+        int number;
+        try{
+            number = Integer.valueOf(getString());
+            return number;
+        } catch (NumberFormatException nfe){
+            System.out.println("Wrong input, try again: ");
+            return getInt();
+        }
     }
+
     public static double getDouble(double min, double max){
         System.out.printf("Please enter a value between the min and max of the values assigned to the function.%n");
         double userInput = scanner.nextDouble();
@@ -54,8 +62,15 @@ public class Input {
         return userInput;
     }
     public static double getDouble(){
-        System.out.println("Please enter a double!");
-        return scanner.nextDouble();
+        System.out.println("Give me a decimal: ");
+        double number;
+        try{
+            number = Double.valueOf(getString());
+            return number;
+        } catch (NumberFormatException nfe){
+            System.out.println("Wrong input, try again: ");
+            return getDouble();
+        }
     }
 
 
